@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+
+}
+
+.d-grid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item{
+
+    border: 1px solid black;
+    height: 200px;
+   
+}
+
+.item-1{
+
+    background-color: aqua;
+}
+
+.item-2{
+
+    background-color: rgb(0, 255, 149);
+}
+
+.item-3{
+
+    background-color: rgb(47, 182, 60);
+}
+
+.item-4{
+
+    background-color: rgb(250, 204, 68);
+}
+
+
+
