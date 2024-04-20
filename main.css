@@ -14,23 +14,29 @@ body{
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* gap: 15px; */
+   
 }
 
 .item{
 
     border: 1px solid black;
-    height: 200px;
+    /* height: 200px; */
    
 }
 
 .item-1{
 
     background-color: aqua;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
 }
 
 .item-2{
 
     background-color: rgb(0, 255, 149);
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .item-3{
